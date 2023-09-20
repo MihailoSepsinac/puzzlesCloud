@@ -1,5 +1,5 @@
 ---
-weight: 9
+weight: 1
 ---
 # Contributor Covenant Code of Conduct
 
