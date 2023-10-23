@@ -1,4 +1,4 @@
 ---
 layout: home
-weight: 14
+weight: 6
 ---
