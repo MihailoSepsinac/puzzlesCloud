@@ -1,5 +1,5 @@
 ---
-weight: 15
+weight: 16
 ---
 ## HEAD
 
@@ -38,6 +38,7 @@ weight: 15
   * Reduce spacing in the three largest headers (#538)
   * Add `auto` skin which honors the `prefers-color-scheme` media query (#634)
   * Add google scholar. (#673)
+  * Add `x` social icon (#756)
 
 ### Major Enhancements
 
