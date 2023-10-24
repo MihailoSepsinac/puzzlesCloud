@@ -1,57 +1,128 @@
-title: Your awesome title
-author:
-  name: GitHub User
-  email: your-email@domain.com
-
-# The `>` after `description:` means to ignore line-breaks until next key.
-# If you want to omit the line-break after the end of text, use `>-` instead.
-description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
-# Build settings
-
-theme: minima
-
+title: PuzzlesCloud
+baseurl: /
+permalink: '/:title/'
+collections:
+  posts:
+    permalink: '/posts/:title/'
+description: We automate by docx-as-code
+palette: blue
+palettes:
+  blue:
+    sass:
+      accent1: '#0e62ff'
+      accent2: '#0072ff'
+  green:
+    sass:
+      accent1: '#12db5d'
+      accent2: '#11998e'
+  navy:
+    sass:
+      accent1: '#004e92'
+      accent2: '#000428'
+  violet:
+    sass:
+      accent1: '#8e2de2'
+      accent2: '#4a00e0'
+header:
+  title: PuzzlesCloud
+  logo_img: images/logo.svg
+  has_nav: true
+  nav_links:
+    - label: Home
+      url: /
+      style: link
+      has_subnav: false
+    - label: FAQ
+      url: /docs/faq
+      style: link
+      has_subnav: false
+    - label: Knowledge Base
+      url: /docs/knowledge-base/
+      style: link
+      has_subnav: false
+    - label: SOPs
+      url: /docs/knowledge-base/
+      style: link
+      has_subnav: true
+      subnav_links:
+        - label: Onboarding Guides
+          url: /docs/onboarding-guides
+          style: link
+        - label: User Guides
+          url: /docs/user-guides
+          style: link
+        - label: Helpdesk Guides
+          url: /docs/helpdesk-guides
+          style: link
+    - label: Policies
+      url: /docs/policies
+      style: link
+      has_subnav: false
+    - label: Contact
+      url: /contact
+      style: link
+      has_subnav: false
+footer:
+  content: '&copy; PuzzlesCloud 2023. All rights reserved.'
+  links:
+    - label: ' Home |'
+      url: '/'
+      style: link
+      new_window: false
+    - label: 'FAQ |'
+      url: '/docs/faq'
+      style: link
+    - label: 'Knowledge Base |'
+      url: '/knowledge-base/'
+      style: link
+      new_window: false
+    - label: 'SOPs |'
+      url: '/sop/'
+      style: link
+      new_window: false
+    - label: 'Policies |'
+      url: '/docs/policies/'
+      style: link
+      new_window: false
+    - label: 'Helpdesk |'
+      url: '/contact'
+      style: link
+      new_window: false
+  has_social: true
+  social_links:
+    - label: Linkedin
+      url: 'https://www.linkedin.com/company/80019083'
+      style: icon
+      icon_class: fa-linkedin
+      new_window: true
+    - label: Facebook
+      url: 'https://www.facebook.com/PuzzlesCloud-102941212357158/'
+      style: icon
+      icon_class: fa-facebook
+      new_window: true
+    - label: Youtube
+      url: 'https://www.youtube.com/channel/UCJUy-Mj3HB0IhgR6Z7uSxIA'
+      style: icon
+      icon_class: fa-youtube
+      new_window: true
+    - label: GitHub
+      url: 'https://github.com/puzzlescloud'
+      style: icon
+      icon_class: fa-github
+      new_window: true
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Theme-specific settings
-
-minima:
-  # Minima date format.
-  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
-  #
-  # date_format: "%b %-d, %Y"
-
-  # Generate social links in footer.
-  #
-  # social_links:
-  #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
-  #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
-  #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
-  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-  #   - { platform: github,         user_url: "https://github.com/jekyll/minima" }
-  #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
-  #   - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
-  #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
-  #   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
-  #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
-  #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
-  #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
-  #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
-  #   - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
-  #   - { platform: x,              user_url: "https://x.com/jekyllrb" }
-  #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
-
-# If you want to link only specific pages in your header, uncomment this and add the path to the pages in
-# order as they should show up.
-#
-# header_pages:
-#   - about.md
-
-# Set to `true` to show excerpts on the homepage.
-#
-# show_excerpts: false
+  - jekyll-menus
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - README.md

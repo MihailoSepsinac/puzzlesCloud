@@ -1,0 +1,9 @@
+root_docs_path: /docs
+sections:
+  - onboarding-guides
+  - user-guides
+  - helpdesk-guides
+  - faq
+  - knowledge-base
+  - download
+  - policies

@@ -1,0 +1,244 @@
+chapters:
+- chapters: []
+  folderName: develop
+  name: About Us
+  path: about.md
+  sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+  type: MARKDOWN_CHAPTER
+- chapters:
+  - chapters: []
+    folderName: develop
+    name: Welcome to Docs
+    path: docs/index.md
+    sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+    type: MARKDOWN_CHAPTER
+  - chapters:
+    - chapters: []
+      folderName: develop
+      name: Integrations with Others
+      path: docs/integrations/index.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    folderName: develop
+    name: integrations
+    path: docs/integrations
+    sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+    type: FOLDER_CHAPTER
+  - chapters:
+    - chapters: []
+      folderName: develop
+      name: Getting Started
+      path: docs/getting-started/index.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: 1. Create Professional DOCX Template
+      path: docs/getting-started/edit-docx-template.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: 2. Import Your Git Repository
+      path: docs/getting-started/import-git-docs-repo.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: 3. Create a New Doc
+      path: docs/getting-started/create-new-doc.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: Publish Created Doc
+      path: docs/getting-started/publish-doc.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: Configure Webhook
+      path: docs/getting-started/webhook.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: Add PDF/DOCX Download to your Jekyll Website
+      path: docs/getting-started/add-download-jekyll.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    folderName: develop
+    name: getting-started
+    path: docs/getting-started
+    sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+    type: FOLDER_CHAPTER
+  - chapters:
+    - chapters: []
+      folderName: develop
+      name: Use Cases
+      path: docs/use-cases/index.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: Enable docx-as-code for your DevOps/Agile Team
+      path: docs/use-cases/uc1-work-in-git-produce-docx-pdf.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: Convert your Static Website to PDF
+      path: docs/use-cases/uc2-make-website-docs-available-offline.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: Publish Docs Without Pain
+      path: docs/use-cases/uc3-work-in-our-webapp-and-publish-docs-in-git.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    folderName: develop
+    name: use-cases
+    path: docs/use-cases
+    sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+    type: FOLDER_CHAPTER
+  - chapters:
+    - chapters: []
+      folderName: develop
+      name: How to migrate Confluence data to Git based Wiki?
+      path: docs/faq/confluence-migration.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: What's the difference between Confluence & PuzzlesCloud?
+      path: docs/faq/diff-confluence-puzzlescloud.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: What are docs-as-code typical doc types?
+      path: docs/faq/doc-types-with-docs-as-code.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: How to setup Git branches and approval workflow?
+      path: docs/faq/docs-approval.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: How to convert existing docx files into MarkDown?
+      path: docs/faq/docx-to-md.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: How to setup Git repo to prevent undesired pushes?
+      path: docs/faq/git-push-rules.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: FAQ
+      path: docs/faq/index.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: Where is your SaaS hosted?
+      path: docs/faq/saas-hosting.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: How to leverage Wiki pages for docx-as-code?
+      path: docs/faq/wiki.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    folderName: develop
+    name: faq
+    path: docs/faq
+    sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+    type: FOLDER_CHAPTER
+  - chapters:
+    - chapters: []
+      folderName: develop
+      name: Policies
+      path: docs/policies/index.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: Privacy Policy
+      path: docs/policies/privacy-policy.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    - chapters: []
+      folderName: develop
+      name: Terms and Conditions
+      path: docs/policies/terms-and-conditions.md
+      sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+      type: MARKDOWN_CHAPTER
+    folderName: develop
+    name: policies
+    path: docs/policies
+    sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+    type: FOLDER_CHAPTER
+  folderName: develop
+  name: docs
+  path: docs
+  sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+  type: FOLDER_CHAPTER
+- chapters:
+  - chapters: []
+    folderName: develop
+    name: How to Maximize Content Reuse of Tech Documentation?
+    path: blog/content-reuse.md
+    sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+    type: MARKDOWN_CHAPTER
+  - chapters: []
+    folderName: develop
+    name: How Customer Success Engineer can benefit from docx-as-code?
+    path: blog/how-customer-success-engineer-benefits.md
+    sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+    type: MARKDOWN_CHAPTER
+  - chapters: []
+    folderName: develop
+    name: Raising Starts Program Finalists
+    path: blog/raising-starts-program.md
+    sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+    type: MARKDOWN_CHAPTER
+  - chapters: []
+    folderName: develop
+    name: StarTech Program Winners
+    path: blog/startech-winners.md
+    sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+    type: MARKDOWN_CHAPTER
+  - chapters: []
+    folderName: develop
+    name: Why docs-as-code?
+    path: blog/why-docs-as-code.md
+    sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+    type: MARKDOWN_CHAPTER
+  folderName: develop
+  name: blog
+  path: blog
+  sourceURL: https://gitlab.com/puzzles-cloud/products/puzzles-cloud-website.git
+  type: FOLDER_CHAPTER
+fieldValues:
+  doc-release-date: 15.06.2022
+  doc-type: Online Documentation
+  doc-subtitle: Think Green. No paper prints anymore!
+  doc-title: 'PuzzlesCloud Website '
+  doc-company: PuzzlesCloud d.o.o
+  File Name: puzzlescloud.docx
+  doc-company-url: https://puzzlescloud.com
+  doc-version: 1.2.0
+  doc-id: '00001'
+folderName: null
+name: ROOT
+path: null
+sourceURL: null
+type: null
