@@ -3,7 +3,7 @@ title: Contact
 subtitle: In case you neet support feel free to contact us. 
 color: dark-blue
 layout: page
-weight: 6
+weight: 1
 ---
 #### New Helpdesk Ticket
 
