@@ -1,7 +1,7 @@
 ---
 title: Downloads Section
 layout: docs
-weight: 2
+weight: 4
 ---
 Here you can download support documents writen in Word or PDF
 
