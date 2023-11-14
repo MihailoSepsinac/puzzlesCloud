@@ -1,7 +1,7 @@
 ---
 title: Support Structure
 excerpt: In this section you'll find documentation about your network infrastructure.
-weight: 4
+weight: 7
 layout: docs
 ---
 <!--
