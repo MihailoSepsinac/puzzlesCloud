@@ -1,6 +1,6 @@
 ---
 title: FAQ
-excerpt: >-
+excerpt: In this section you'll find commonly asked questions regarding our application.
 layout: docs
 weight: 3
 ---

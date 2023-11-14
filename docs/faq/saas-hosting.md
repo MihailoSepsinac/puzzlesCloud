@@ -1,6 +1,7 @@
 ---
 title: Where is your SaaS hosted?
-excerpt: >-
+excerpt: We are hosting our SaaS solution at [Hetzner Dedicated](https://www.hetzner.com),
+  location Falkenstein, Germany.
 weight: 2
 layout: docs
 ---
