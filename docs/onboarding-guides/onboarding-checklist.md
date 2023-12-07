@@ -1,7 +1,7 @@
 ---
 title: Onboarding SOP
 layout: docs
-weight: 3
+weight: 2
 ---
 ## Step by Step Procedure
 

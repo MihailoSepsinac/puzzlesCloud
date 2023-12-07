@@ -1,6 +1,6 @@
 ---
 title: Terms and Conditions
-weight: 4
+weight: 3
 layout: docs
 ---
 **Effective:** 12.12.2021 

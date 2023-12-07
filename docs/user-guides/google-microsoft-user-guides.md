@@ -1,7 +1,7 @@
 ---
 title: Google & Microsoft User Guides
 layout: docs
-weight: 3
+weight: 2
 ---
 Here you can find [Google User Guides](https://support.google.com/a/users/answer/10197229?visit_id=638188023327889232-91324800&hl=en&rd=1) 
 

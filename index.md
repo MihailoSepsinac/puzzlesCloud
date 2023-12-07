@@ -38,5 +38,5 @@ sections:
     url: /#contact
     style: primary
 layout: advanced
-weight: 8
+weight: 7
 ---

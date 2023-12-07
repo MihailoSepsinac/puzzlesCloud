@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-weight: 3
+weight: 4
 layout: docs
 ---
 **Effective:** 24.11.2020 
