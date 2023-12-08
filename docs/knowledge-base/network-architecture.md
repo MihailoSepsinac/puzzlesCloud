@@ -1,7 +1,7 @@
 ---
 title: Network Architecture
 excerpt: In this section you'll find basic info of your Network.
-weight: 2
+weight: 3
 layout: docs
 ---
 ## DMZ Deployment
